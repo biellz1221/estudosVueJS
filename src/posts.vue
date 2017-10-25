@@ -28,7 +28,7 @@ export default {
         getPosts() {
             axios.get(baseUrl + `/posts`).then(response => {
                 this.posts = response.data
-                console.log(this.posts);
+                //console.log(this.posts);
             }).catch(error => {
                 console.log(error);
             })

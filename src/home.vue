@@ -5,6 +5,9 @@
     <h2>Essential Links</h2>
     <ul>
       <li><router-link to="/posts">Teste com Posts</router-link></li>
+      <li><router-link to="/crocs">Teste com Crocodilians</router-link> 
+        <a href="https://alligator.io/vuejs/vue-client-side-search/" target="_blank">alligator.io</a>
+      </li>
     </ul>
     <h2>Ecosystem</h2>
     <ul>

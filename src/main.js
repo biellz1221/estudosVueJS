@@ -4,6 +4,7 @@ import App from './App.vue';
 import Home from './home.vue';
 import Posts from './posts.vue';
 import Single from './single.vue';
+import Crocs from './crocs.vue';
 
 Vue.use(VueRouter);
 
@@ -12,6 +13,7 @@ Vue.use(VueRouter);
 const routes = [
   {name: "home", path: '/', component: Home},
   {name: "posts", path: '/posts', component: Posts},
+  {name: "crocs", path: '/crocs', component: Crocs},
   {name: "single", path: '/single/:id', component: Single},
 ]
 
